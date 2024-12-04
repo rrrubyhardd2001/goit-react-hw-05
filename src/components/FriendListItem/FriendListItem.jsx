@@ -12,9 +12,9 @@ export default function FriendsList({ avatar, name, isOnline }) {
       <p className={style.nameFriend}>{name}</p>
       <p className={style.statusFriend}>
         {isOnline ? (
-          <p className={style.OnFriend}>online</p>
+          <span className={style.statusOnline}>online</span>
         ) : (
-          <p className={style.OfFriend}>offline</p>
+          <span className={style.statusOffline}>offline</span>
         )}
       </p>
     </div>

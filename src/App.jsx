@@ -3,7 +3,7 @@ import userData from "./userData/userData.json";
 import Profile from "./components/Profile/Profile.jsx";
 
 import friends from "./userData/friends.json";
-import FriendList from "./components/FriendListItem/FriendList.jsx";
+import FriendList from "./components/FriendList/FriendList.jsx";
 
 import transactions from "./userData/transaction.json";
 import TransactionHistory from "./components/TransactionHistory/TransactionHistory.jsx";
