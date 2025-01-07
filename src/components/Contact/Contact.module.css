@@ -1,0 +1,44 @@
+.wrap {
+  border: 2px solid black;
+  border-radius: 7px;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  display: flex;
+  margin-right: 10px;
+}
+.wrapPage {
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Pname {
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  margin: 0;
+}
+.Pnumber {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 500;
+}
+.icon {
+  padding-right: 5px;
+  width: 20px;
+  height: 20px;
+}
+.DelButton {
+  background-color: rgb(228, 212, 212);
+  color: rgb(17, 6, 6);
+  border: 1px solid rgb(129, 125, 125);
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  outline: none;
+  margin-right: 10px;
+}
+.DelButton:hover {
+  border-color: saddlebrown;
+}

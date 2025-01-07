@@ -9,7 +9,7 @@ export default defineConfig({
   },
   css: {
     modules: {
-      generateScopedName: "[local]", // Тільки для локальної назви класу
+      generateScopedName: "[local]", //  для локальної назви класу
     },
   },
 });

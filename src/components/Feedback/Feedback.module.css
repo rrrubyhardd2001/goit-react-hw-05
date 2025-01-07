@@ -1,9 +1,0 @@
-.FeedLi {
-  font-size: 30px;
-}
-.FeedUl {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  padding-left: 0;
-}
