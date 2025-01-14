@@ -1,0 +1,32 @@
+.SearchForm {
+  background-color: blue;
+  text-align: center;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+.SearchInput {
+  padding: 15px;
+  margin: 10px 0 10px 0;
+  width: 370px;
+  outline: none;
+  border: none;
+}
+.SearchInput:focus {
+  outline: none;
+}
+.SearchBtn {
+  border-left: none;
+  border-radius: 0px;
+  display: inline-block;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  outline: none;
+  padding: 6px 20px 13px 10px;
+}
+.SearchBtn:focus {
+  outline: none;
+}
+.SearchIcon {
+  width: 20px;
+  height: 20px;
+}
